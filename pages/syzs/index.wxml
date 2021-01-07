@@ -1,0 +1,95 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/100px.png"></image>
+    </navigator>
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix" class="pic" src="/images/customer.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="banner">
+  <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24iu4u.jpg"></image>
+</view>
+<view class="psBox">
+  <view class="psBoxTit">
+    特色课程
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24ioix.png" class="pic"></image>
+    <view class="text">
+      <view>邮轮产业建设</view>
+      <view>邮轮战略规划</view>
+      <view>邮轮运营管理</view>
+      <view>旅游心理学</view>
+      <view>邮轮旅游商品设计</view>
+      <view>智慧邮轮电子商务</view>
+      <view>邮轮市场营销</view>
+      <view>邮轮广告宣传</view>
+      <view>邮轮活动策划</view>
+      <view>邮轮礼仪和服务管理</view>
+      <view>跨文化沟通</view>
+      <view>VR航海地理</view>
+      <view>数据挖掘</view>
+      <view>旅游系统应用</view>
+      <view>智慧旅游和大数据</view>
+      <view>航线策划与设计</view>
+    </view>
+  </view>
+</view>
+
+<view class="psBox">
+  <view class="psBoxTit">
+    专业学科介绍
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24isfl.png" class="pic"></image>
+    <view class="text">
+      <view>大数据相关技术</view>
+      <view>数据工程基础</view>
+      <view>邮轮企业管理基础理论</view>
+      <view>旅游管理专业知识</view>
+      <view>邮轮行业服务能力</view>
+      <view>邮轮电子商务销售能力</view>
+      <view>国际邮轮及水域休闲游憩领域综合管理开发的专业技能</view>
+    </view>
+  </view>
+</view>
+
+<view class="psBox">
+  <view class="psBoxTit">
+    课程体系
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24iw0o.png" class="pic"></image>
+    <view class="text">
+     
+    </view>
+  </view>
+</view>
+
+<!-- <view class="psBox">
+  <view class="psBoxTit">
+    专业学科介绍
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="#" class="pic"></image>
+    <view class="text">
+      <view>介绍1</view>
+      <view>介绍2</view>
+      <view>介绍3</view>
+      <view>介绍4</view>
+    </view>
+  </view>
+</view>
+ -->
+
+
+
+<view class="footer">
+  <image mode="widthFix" class="pic" src="/images/100px.png"></image>
+  <view class="text"> 专业品牌值得信赖</view>
+
+</view>

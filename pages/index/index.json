@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "PubTitle":"/components/PubTitle/PubTitle"
+  },
+  "navigationBarTitleText": "首页"
+}

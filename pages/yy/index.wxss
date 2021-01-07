@@ -1,0 +1,54 @@
+.profile-info {
+  background-color: #76b0f3;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx 0 30rpx 0;
+  font-size: 28rpx;
+}
+
+ .profile-info .avatar {
+  height: 148rpx;
+  width: 148rpx;
+  border-radius: 50%;
+}
+
+.profile-info .info {
+  flex: 1;
+  height: 85rpx;
+/*   padding-left: 25rpx; */
+  align-items: center;
+  justify-content: center;
+} 
+
+.profile-info .name {
+  display: block;
+  height: 45rpx;
+  line-height: 45rpx;
+  color: #fff;
+  font-size: 37.5rpx;
+  margin-bottom: 10rpx;
+}
+
+
+.app_info_wrap{
+  margin-top: 30rpx;
+  background-color: #f4f4f4;
+  font-size: 30rpx;
+
+}
+.app_info_wrap .app_info_item{
+  padding: 20rpx;
+  border-bottom: 5rpx solid #fff;
+}
+.app_info_wrap .app_info_contact{
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend_wrap{
+  margin-top: 30rpx;
+  background-color: #f4f4f4;
+  padding: 20rpx;
+}

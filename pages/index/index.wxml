@@ -1,0 +1,146 @@
+<!-- 
+轮播图默认 width 100% height : 150px
+手动算swiper高度 原图宽高，算swiper宽高
+
+swiper 宽度 /swiper 高度 = 原图 宽度 / 原图 高度
+swiper 高度 = swiper 宽带 * 原图 高度 / 原图 宽度
+height ：100%/750rpx/100vw * 原图 高度 / 原图 宽度
+
+ -->
+<view class="header">
+  <view class="container hdCon">
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/100px.png"></image>
+    </navigator>
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix" class="pic" src="/images/customer.png"></image>
+    </view>
+  </view>
+</view>
+
+
+<swiper autoplay circular indicator-dots>
+  <swiper-item>
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/22/2mau4x.png" />
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/22/2maq2d.png" />
+  </swiper-item>
+</swiper>
+
+
+<view class="td-1">
+  <text> 学校特色</text>
+</view>
+<view class="td-2" style="color:#9c9c9c">
+  <text>School Charateristics</text>
+</view>
+
+
+<view class="works">
+  <view class="container">
+    <PubTitle myTitle="学院特色" bindtap="tiaozhuan"/>
+    <view class="wkMain">
+      <navigator url="/pages/syzs/index">
+      <image src="https://riyugo.com/i/2020/12/25/24j6gi.jpg"></image>
+    </navigator>
+    <navigator url="/pages/sy/index">
+      <image src="https://riyugo.com/i/2020/12/25/24itx7.jpg"></image>
+    </navigator>
+    </view>
+    <view class="tt">
+      <view class="tit">专业介绍</view>
+      <view class="tit">资料库</view>
+    </view>
+    <view class="tt-1">
+      <view class="tit-1">specialty</view>
+      <view class="tit-1">data bank</view>
+    </view>
+  </view>
+
+</view>
+
+<view class="dynamic">
+  <view class="container">
+    <PubTitle myTitle="学校动态"/>
+
+    <view class="dyMain">
+     <navigator class="dyItem" bindtap="tiaozhuan1" url="https://www.shmtu.edu.cn/imagenews/shang-hai-hai-shi-da-xue-ju-ban-di-yi-qi-jiao-zhi-gong-zuo-tan-hui.htm">
+       <view class="pic">
+         <image src="https://riyugo.com/i/2020/12/25/3e4kj8.jpg"></image>
+       </view>
+       <view class="txt">
+         <view class="title">
+           上海海事大学举办第一期教职工座谈会
+         </view>
+         <view class="info">
+           <text>作者：</text>工会 <text space="ensp">  -  </text> <text>时间：</text>2020-12-23
+         </view>
+       </view>
+     </navigator>
+
+     <navigator class="dyItem" url="https://www.shmtu.edu.cn/imagenews/di-san-qi-hai-feng-hang-yun-guan-li-ding-xiang-pei-yang-ban-jie-ye-yi-shi-zai-shang-hai">
+       <view class="pic">
+         <image src="https://riyugo.com/i/2020/12/25/3e50aw.jpg"></image>
+       </view>
+       <view class="txt">
+         <view class="title">
+           第三期海丰航运管理定向培养班结业仪式在上海海事大学举行
+         </view>
+         <view class="info">
+           <text>作者：</text>经济管理学院<text space="ensp">  -  </text> <text>时间：</text>2020-12-23
+         </view>
+       </view>
+     </navigator>
+
+     <navigator class="dyItem" url="https://www.shmtu.edu.cn/imagenews/xue-xiao-zhao-kai-di-san-lun-xun-cha-qing-kuang-fan-kui-hui.htm">
+       <view class="pic">
+         <image src="https://riyugo.com/i/2020/12/25/3e587y.jpg"></image>
+       </view>
+       <view class="txt">
+         <view class="title">
+           学校召开第三轮巡察情况反馈会
+         </view>
+         <view class="info">
+           <text>作者：</text>纪委 <text space="ensp">  -  </text> <text>时间：</text>2020-12-23
+         </view>
+       </view>
+     </navigator>
+
+     <navigator class="dyItem" url="https://www.shmtu.edu.cn/imagenews/lu-jing-xiao-chang-yi-xing-zou-fang-shang-hai-gang-yin-hang-zhan.htm">
+       <view class="pic">
+         <image src="https://riyugo.com/i/2020/12/25/3e588i.jpg"></image>
+       </view>
+       <view class="txt">
+         <view class="title">
+           陆靖校长一行走访上海港引航站
+         </view>
+         <view class="info">
+           <text>作者：</text>校长办公室 <text space="ensp">  -  </text> <text>时间：</text>2020-12-22
+         </view>
+       </view>
+     </navigator>
+
+     <navigator class="dyItem" url="https://www.shmtu.edu.cn/imagenews/shang-hai-hai-shi-da-xue-hang-yun-ke-ji-chuang-xin-da-lou-xiang-mu-ju-xing-kai-gong-dian">
+       <view class="pic">
+         <image src="https://riyugo.com/i/2020/12/25/3e5p7c.jpg"></image>
+       </view>
+       <view class="txt">
+         <view class="title">
+           上海海事大学航运科技创新大楼项目举行开工奠基仪式
+         </view>
+         <view class="info">
+           <text>作者：</text>校办、宣传部、基建处 <text space="ensp">  -  </text> <text>时间：</text>2020-12-18
+         </view>
+       </view>
+     </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <image mode="widthFix" class="pic" src="/images/100px.png"></image>
+  <view class="text"> 专业品牌值得信赖</view>
+
+</view>

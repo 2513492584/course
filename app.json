@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/kc/index",
+    "pages/sy/index",
+    "pages/syzs/index",
+    "pages/login/index",
+    "pages/yy/index",
+    "pages/out/out1/out",
+    "pages/out/out2/out",
+    "pages/out/out3/out",
+    "pages/out/out4/out"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "梦邮启航",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FF00C8",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/1.png",
+        "selectedIconPath": "icons/2.png"
+      },
+      {
+        "pagePath": "pages/kc/index",
+        "text": "系统介绍",
+        "iconPath": "icons/1.png",
+        "selectedIconPath": "icons/2.png"
+      },
+      {
+        "pagePath": "pages/yy/index",
+        "text": "个人中心",
+        "iconPath": "icons/1.png",
+        "selectedIconPath": "icons/2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

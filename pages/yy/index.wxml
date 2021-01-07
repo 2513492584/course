@@ -1,0 +1,28 @@
+<view class="profile-info" bindtap="goLogin">
+  <view wx:if="{{userinfo.avatarUrl}}">
+    <image class="avatar" src="{{userinfo.avatarUrl}}"></image>
+    <view class="info">
+      <text class="name">{{userinfo.nickName}}</text>
+    </view>
+  </view>
+
+  <view wx:else class="user_btn">
+    <navigator url="/pages/login/index">
+      <image class="avatar" src="/images/my.png"></image>
+    </navigator>
+    <view class="info">
+      <navigator class="name" url="/pages/login/index">用户登陆</navigator>
+    </view>
+  </view>
+</view>
+
+
+<view class="app_info_wrap">
+  <view class="app_info_item app_info_contact">
+    <text>联系客服</text>
+    <text>400-618-4000</text>
+  </view>
+  <view class="app_info_item">意见反馈</view>
+  <view class="app_info_item">关于我们</view>
+</view>
+<view class="recommend_wrap">把应用推荐给其他人</view>

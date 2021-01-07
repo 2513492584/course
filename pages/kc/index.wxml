@@ -1,0 +1,101 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/100px.png"></image>
+    </navigator>
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix" class="pic" src="/images/customer.png"></image>
+    </view>
+  </view>
+</view>
+
+<!--  <view class="banner">
+  <image mode="widthFix" src="/images/3.jpg"></image>
+</view> -->
+<view class="psBox">
+  <view class="psBoxTit">
+    资源满满
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24iyq3.jpg" class="pic"></image>
+    <view class="text">
+      <view class="td-1">旅游管理资源云服务平台</view>
+      <view class="td-2">Tourism management </view>
+      <view class="td-2">resource cloud service platform</view>
+      <view class="td-3">旅游管理资源云服务平台，是展示学业特色，宣传海事旅游管理专业的平台；是帮助实现教育资源共享，提供全新的互动功能，是学生更方便快捷地进行学习；提供各项数据，有助于老师统一管理。</view>
+      <view class="td-3">旅游管理资源云服务平台导航栏包含海大链接，行政服务，教学服务，科研服务学科服务，综合导航，个人中心，主要内容包括个人中心、云院指南、条件设备、质量监管、电子资源、报表中心、社会贡献、迎评认证。</view>
+ 
+    </view>
+  </view>
+</view> 
+
+ <view class="psBox">
+  <view class="psBoxTit">
+    自我管理
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24ixru.jpg" class="pic"></image>
+    <view class="text">
+      <view class="td-1">个人中心</view>
+      <view class="td-2">personal center</view>
+      <view class="td-3">个人中心，是本网站为您账户设置的一个保存信息、交互、通往各功能页面的个人空间。</view>
+      <view class="td-3">个人中心包括导航栏、首页、课程表、专业教师、日历功能。导航栏包括搜索功能，中英文转换、消息通知、用户介绍。首页包含网页的访问数据，教师发给目标学生的消息，以及校园消息动态。课程表包含学生的个人课表。日历页面中可将左侧事务放到对应的日期中，当备忘录。</view>
+
+    </view>
+  </view>
+</view>
+
+
+<view class="psBox">
+  <view class="psBoxTit">
+    紧跟时代
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24iylz.jpg" class="pic"></image>
+    <view class="text">
+      <view class="td-1">实验室展示平台</view>
+      <view class="td-2">Laboratory display platform</view>
+      <view class="td-3">实验室展示平台，是为实验室的管理提供快捷方便的服务，并为学生及教师提供教学成果展示的平台。 它包括了树莓派小车、教学楼建模等最新作品。</view>
+    </view>
+  </view>
+</view>
+
+<view class="psBox">
+  <view class="psBoxTit">
+    管理专家
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/24j53f.jpg" class="pic"></image>
+    <view class="text">
+      <view class="td-1">后台管理系统</view>
+      <view class="td-2">Backstage management system</view>
+      <view class="td-3">后台管理系统，是一个网站管理系统，把一个网站的内容（文字，图片，等等）与网站的组件分离开来，可以将各个页面连接到一起，可以控制页面的显示。</view>
+      <view class="td-3">后台管理系统包括消息管理、综合性导航平台、资源服务平台、个人中心、实验室展示平台、邮轮号品牌介绍。消息管理有学生留言、教师留言、消息反馈。课程管理有课程列表、添加新课程、课程分类、教学图谱、课程概述、教学大纲、教学计划、教材与参考文献、课程标准、课程管理视频。实验室器材管理有实验室器材列表。学生管理有学生列表。</view>
+    </view>
+  </view>
+</view>
+
+<view class="psBox">
+  <view class="psBoxTit">
+    专业品牌
+  </view>
+  <view class="psBoxCon">
+    <image mode="widthFix" src="https://riyugo.com/i/2020/12/25/3e494h.jpg" class="pic"></image>
+    <view class="text">
+      <view class="td-1">梦邮号</view>
+      <view class="td-2">Cruise</view>
+      <view class="td-3">梦邮号品牌介绍，是介绍开发公司，展现成员风采，体现企业形象的平台</view>
+      <view class="td-3">其中联系方式有联系电话、企业微信、企业微博、企业小程序。主要成员介绍和照片。当点击其中每一个文字会出现具体的消息。</view>
+    </view>
+  </view>
+</view>
+
+
+
+
+ <view class="footer">
+  <image mode="widthFix" class="pic" src="/images/100px.png"></image>
+  <view class="text"> 专业品牌值得信赖</view>
+
+</view>
